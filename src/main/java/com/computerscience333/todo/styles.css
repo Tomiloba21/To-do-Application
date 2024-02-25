@@ -1,0 +1,116 @@
+.root {
+    -fx-background-color: lightblue;
+}
+
+.listView {
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, -10%);
+}
+
+.top-bar {
+    -fx-padding: 10;
+    -fx-background-color: #f4f4f4;
+}
+
+.left-vbox, .right-vbox {
+    -fx-spacing: 10;
+}
+
+.left-vbox .label {
+    -fx-font-weight: bold;
+}
+
+.right-vbox .text-area {
+    -fx-pref-height: 100;
+    -fx-max-height: 100;
+}
+
+.button-bar {
+    -fx-spacing: 10;
+}
+
+.search-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.date-picker, .spinner, .combo-box {
+    -fx-pref-width: 150;
+}
+
+.check-box {
+    -fx-padding: 5;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: #c5e1a5;
+}
+
+.list-view .check-box {
+    -fx-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.reminder-dialog .dialog-pane {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 10;
+}
+
+.reminder-dialog .button-bar {
+    -fx-spacing: 10;
+}
+
+.reminder-dialog .date-picker {
+    -fx-pref-width: 200;
+}
+
+.reminder-dialog .button-bar .button {
+    -fx-background-color: #4caf50; /* Green */
+    -fx-text-fill: white;
+}
+
+.reminder-dialog .button-bar .button:disabled {
+    -fx-background-color: #e0e0e0; /* Grey */
+}
+
+.reminder-dialog .button-bar .button:default {
+    -fx-background-color: #2196f3; /* Blue */
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2196f3; /* Blue */
+    -fx-text-fill: white;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-font-size: 1.2em;
+}
+
+.dialog-pane .header-panel .graphic {
+    -fx-padding: 10;
+}
+
+.alert .dialog-pane .header-panel {
+    -fx-background-color: #f44336; /* Red */
+}
+
+.alert .dialog-pane .header-panel .label {
+    -fx-font-size: 1.2em;
+}
+
+.alert .dialog-pane .header-panel .graphic {
+    -fx-padding: 10;
+}
+
+.alert .dialog-pane .content {
+    -fx-padding: 10;
+}
+
+.alert .dialog-pane .label {
+    -fx-text-fill: #333;
+}
+
+.alert .dialog-pane .text {
+    -fx-fill: #555;
+}
